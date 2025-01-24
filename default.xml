@@ -6,7 +6,7 @@
   <remote name="fsl"   fetch="https://github.com/Freescale"/>
   <remote name="qt5"   fetch="https://github.com/meta-qt5"/>
   <remote name="swu"   fetch="https://github.com/sbabic"/>
-  <remote name="oe"    fetch="https://git.openembedded.org"/>
+  <remote name="oe"    fetch="https://github.com/openembedded"/>
 
   <project name="meta-digi" path="sources/meta-digi" remote="digi" revision="jethro">
     <copyfile src="sdk/mkproject.sh" dest="mkproject.sh"/>
